@@ -1,0 +1,22 @@
+{
+  "name": "graphql-study-example-v2",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "@bluelibs/nova": "^1.2.0",
+    "@graphql-tools/schema": "^8.3.1",
+    "apollo-server": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "graphql": "^16.0.1",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-subscriptions": "^2.0.0",
+    "lodash": "^4.17.21",
+    "meteor-node-stubs": "^1.1.0",
+    "mongodb": "^4.1.4",
+    "subscriptions-transport-ws": "^0.11.0",
+    "uuid": "^8.3.2"
+  }
+}

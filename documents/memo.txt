@@ -1,0 +1,16 @@
+meteor create ./ --bare
+
+meteor add accounts-password
+meteor add apollo 
+
+meteor npm i graphql
+meteor npm i @graphql-tools/schema
+meteor npm i apollo-server
+meteor npm i apollo-server-express
+meteor npm i graphql-depth-limit
+// meteor npm i mongodb
+meteor npm i subscriptions-transport-ws
+meteor npm i uuid
+meteor npm i graphql-subscriptions
+meteor npm i -S mongodb @bluelibs/nova
+
