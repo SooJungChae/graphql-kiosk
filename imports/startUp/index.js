@@ -1,3 +1,3 @@
 import './fixtures';
-import './apollo-server';
-// import './apollo-server-basic';
+// import './apollo-server';
+import './apollo-server-basic';

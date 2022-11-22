@@ -45,7 +45,7 @@ import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-co
   const server = new ApolloServer({
     playground: true,
     schema,
-    // validationRules: [ depthLimit(2)], 
+    validationRules: [ depthLimit(2)],
     plugins: [
       ApolloServerPluginLandingPageGraphQLPlayground(), // 추가
       {
@@ -55,7 +55,7 @@ import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-co
               subscriptionServer.close();
             }
           };
-        }          
+        }
       }
     ],
     context: '',
